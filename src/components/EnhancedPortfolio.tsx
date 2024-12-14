@@ -305,7 +305,7 @@ export default function EnhancedPortfolio() {
             ))}
             <li className="md:ml-4">
               <motion.a
-                href="https://drive.google.com/file/d/1wzmmR0z68oF1bbAdFbrzcoAl6c1ZVeTh/view?usp=sharing"
+                // href="replace with resume link"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -546,7 +546,7 @@ export default function EnhancedPortfolio() {
                 <h1 className={`text-5xl md:text-7xl font-bold mb-6 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                   Hi, <span className="text-green-500">I'm</span>{' '}
                   <span className="relative">
-                    Sandeep Makwana
+                    Jerry Velazquez
                     <motion.span
                       className="absolute -bottom-2 left-0 w-full h-1 bg-green-500/20"
                       initial={{ width: 0 }}
@@ -587,7 +587,7 @@ export default function EnhancedPortfolio() {
                     Get in touch
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1wzmmR0z68oF1bbAdFbrzcoAl6c1ZVeTh/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1wzmmRz68oF1bbAdFbrzcoAl6c1ZVeTh/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -608,10 +608,10 @@ export default function EnhancedPortfolio() {
                   className="mt-12 flex justify-center gap-6"
                 >
                   {[
-                    { icon: Github, href: 'https://github.com/isandeepMakwana', label: 'GitHub' },
-                    { icon: Linkedin, href: 'https://www.linkedin.com/in/sandeepmakwana', label: 'LinkedIn' },
-                    { icon: Code2, href: 'https://leetcode.com/isandeepMakwana', label: 'LeetCode' },
-                    { icon: Mail, href: 'mailto:sandeepmakwana.work@gmail.com', label: 'Email' }
+                    { icon: Github, href: 'https://github.com/noobboon7', label: 'GitHub' },
+                    { icon: Linkedin, href: 'https://www.linkedin.com/in/jerry-v-718212nyc/', label: 'LinkedIn' },
+                    { icon: Code2, href: 'https://leetcode.com/jvr572', label: 'LeetCode' },
+                    { icon: Mail, href: 'mailto:jerry.dev52@gmail.com', label: 'Email' }
                   ].map((social, index) => (
                     <motion.a
                       key={index}
@@ -655,8 +655,8 @@ export default function EnhancedPortfolio() {
                       <div className="flex gap-4 items-center hover:bg-zinc-800/50 p-2 rounded transition-colors">
                         <span className="text-zinc-600 select-none">01</span>
                         <span>
-                          Hi! I'm <span className="text-green-500 font-semibold">Sandeep Makwana</span>, 
-                          a <span className="text-blue-400 font-semibold">Software Engineer II</span> at ConsultAdd.
+                          Hi! I'm <span className="text-green-500 font-semibold">Jerry Velazquez</span>, 
+                          a <span className="text-blue-400 font-semibold">Software Engineer</span> at ConsultAdd.
                         </span>
                       </div>
                       <div className="flex gap-4 items-center hover:bg-zinc-800/50 p-2 rounded transition-colors">
@@ -752,7 +752,7 @@ export default function EnhancedPortfolio() {
                   <Window title="achievements.md">
                     <div className="space-y-4">
                       {[
-                        { icon: '🏆', color: 'text-green-500', text: 'AWS Certified Solutions Architect - Associate' },
+                        { icon: '🏆', color: 'text-green-500', text: 'Comptia A+ certified' },
                         { icon: '👥', color: 'text-yellow-500', text: 'Led team of 28 developers with 30% faster delivery' },
                         { icon: '🎯', color: 'text-blue-400', text: '7x Employee of the Month' }
                       ].map((achievement, index) => (
@@ -1046,9 +1046,9 @@ export default function EnhancedPortfolio() {
                     {/* Contact Information */}
                     <div className="space-y-4">
                       {[
-                        { icon: Mail, label: 'sandeepmakwana.work@gmail.com', href: 'mailto:sandeepmakwana.work@gmail.com' },
-                        { icon: Phone, label: '+91 6263216081', href: 'tel:+916263216081' },
-                        { icon: MapPin, label: 'Pune, Maharashtra, India', href: null },
+                        { icon: Mail, label: 'jerry.dev52@gmail.com', href: 'jerry.dev52@gmail.com' },
+                        { icon: Phone, label: '+1 (561) 810-0021', href: 'tel:+1 5618100021' },
+                        { icon: MapPin, label: 'Brooklyn, New York, USA', href: null },
                       ].map((contact, index) => (
                         <motion.div
                           key={index}
@@ -1069,9 +1069,9 @@ export default function EnhancedPortfolio() {
                     <div className="pt-4 border-t border-zinc-800">
                       <div className="space-y-4">
                         {[
-                          { icon: Github, label: 'github.com/isandeepmakwana', href: 'https://github.com/isandeepMakwana' },
-                          { icon: Linkedin, label: 'linkedin.com/in/sandeepmakwana', href: 'https://www.linkedin.com/in/sandeepmakwana' },
-                          { icon: Code2, label: 'leetcode.com/isandeepMakwana', href: 'https://leetcode.com/isandeepMakwana' },
+                          { icon: Github, label: 'github.com/noobboon7', href: 'https://github.com/noobboon7' },
+                          { icon: Linkedin, label: 'linkedin.com/in/jerry-v-718212nyc', href: 'https://www.linkedin.com/in/jerry-v-718212nyc/' },
+                          { icon: Code2, label: 'leetcode.com/jvr572', href: 'https://leetcode.com/jvr572' },
                         ].map((social, index) => (
                           <motion.div
                             key={index}
@@ -1108,7 +1108,7 @@ export default function EnhancedPortfolio() {
 
           <footer className="bg-black/80 backdrop-blur-sm py-8">
             <div className="container mx-auto px-6 text-center">
-              <p className="text-zinc-400">Copyright &copy; 2024 Sandeep Makwana. All rights reserved.</p>
+              <p className="text-zinc-400">Copyright &copy; 2024 Jerry Velazquez. All rights reserved.</p>
             </div>
           </footer>
           <Analytics />
