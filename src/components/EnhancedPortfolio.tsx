@@ -305,7 +305,7 @@ export default function EnhancedPortfolio() {
             ))}
             <li className="md:ml-4">
               <motion.a
-                // href="replace with resume link"
+                href="https://drive.google.com/file/d/1eoRx4nDox2sWzYeEBTOBZp0bTcf5TM8B/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -587,7 +587,7 @@ export default function EnhancedPortfolio() {
                     Get in touch
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1wzmmRz68oF1bbAdFbrzcoAl6c1ZVeTh/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1eoRx4nDox2sWzYeEBTOBZp0bTcf5TM8B/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -833,7 +833,7 @@ export default function EnhancedPortfolio() {
                   Career Journey
                 </h2>
                 <motion.a
-                  href="https://drive.google.com/file/d/1wzmmR0z68oF1bbAdFbrzcoAl6c1ZVeTh/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1eoRx4nDox2sWzYeEBTOBZp0bTcf5TM8B/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
@@ -842,7 +842,7 @@ export default function EnhancedPortfolio() {
                     hover:bg-zinc-700 transition-colors duration-300 border border-green-500/20"
                 >
                   <FileText className="w-4 h-4" />
-                  <span className="font-mono text-sm">Sandeep_makwana_resume.pdf</span>
+                  <span className="font-mono text-sm">Jerry Velazquez_resume.pdf</span>
                 </motion.a>
               </div>
               <Window title="career.json" isActive={activeWindow === 'career'}>
@@ -859,7 +859,7 @@ export default function EnhancedPortfolio() {
                     <div className="space-y-4">
                       <div className="flex justify-between items-center">
                         <h3 className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>
-                          Software Engineer II
+                          Software Engineer
                         </h3>
                         <span className="text-green-500 font-mono text-sm">Jul 2022 - Present</span>
                       </div>
