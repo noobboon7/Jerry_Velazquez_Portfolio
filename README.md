@@ -110,8 +110,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 Your Name
-- GitHub: [@isandeepmakwana](https://github.com/isandeepmakwana)
-- LinkedIn: [Sandeep Makwana](https://linkedin.com/in/sandeepmakwana)
+
+- GitHub: [@noobboon7](https://github.com/noobboon7)
+- LinkedIn: [Jerry Velazquez](https://www.linkedin.com/in/jerry-v-718212nyc/)
 
 ---
 
