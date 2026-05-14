@@ -1048,9 +1048,11 @@ export default function EnhancedPortfolio() {
               <h2 className={`text-3xl font-bold mb-8 text-center ${isDarkMode ? 'text-white' : 'text-black'}`}>Contact</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Window title="contact-form.jsx" isActive>
-                  <form className="space-y-4" action="https://formsubmit.co/ba8029e5c39d10277ca5f269794f62ae" method="POST">
+                  {/* <form className="space-y-4" action="https://formsubmit.co/ba8029e5c39d10277ca5f269794f62ae" method="POST"> */}
+                  <form className="space-y-4">
                     {/* honey pot */}
                     <input type="text" name="_honey" style={{ display: 'none' }}/>
+                    <input type="hidden" name="_next" value="http://localhost:3000/Jerry_Velazquez_Portfolio/thank-you.html" />
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-zinc-400 mb-1">Name</label>
                       <input
